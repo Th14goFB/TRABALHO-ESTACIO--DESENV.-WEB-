@@ -1,0 +1,124 @@
+@media screen and (min-width:400px) and (max-width:599px){
+
+    /*CONTEÚDO HEADER*/
+
+    *{
+        padding:0;
+        margin:0;
+    }
+
+    header{
+        display: flex;
+        width: 275%;
+    }
+
+    .container-imagem-navigation{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-link-list-item{
+        font-size:16px;
+    }
+
+    .list-navigation-header{
+        margin-top:0.5rem;
+        margin-left:3rem;
+    }
+
+    .nav-list-item{
+        padding:1.5;
+    }
+
+    .imagem-banner{
+        display: none;
+    }
+
+    /*CONTEÚDO MAIN*/
+
+    main{
+        display: flow-root;
+    }
+
+    .imagem-texto-main{
+        width: 100%;
+        margin-left:4.5rem;
+    }
+
+    .container-imagem-texto-main{
+        display: flex;
+        flex-direction: column;
+        margin-top:15rem;
+    }
+
+    .container-texto-titulo-main{
+        margin-left:9rem;
+        margin-right:0;
+    }
+
+    .titulo-main{
+        font-size:1.5rem;
+    }
+    
+    .texto-main{
+        font-size:1.1rem;
+    }
+
+    /*---------------------------------------*/
+
+    .imagem-texto-main-2{
+        width: 100%;
+        margin-left:4.5rem;
+    }
+
+    .container-imagem-texto-main-2{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top:15rem;
+    }
+
+    .container-texto-titulo-main-2{
+        margin-left:9rem;
+        margin-right:0;
+    }
+
+     /*---------------------------------------*/
+
+    .imagem-texto-main-3{
+        width: 100%;
+        margin-left:4.5rem;
+    }
+
+    .container-imagem-texto-main-3{
+        display: flex;
+        flex-direction: column;
+        margin-top:15rem;
+    }
+
+    .container-texto-titulo-main-3{
+        margin-left:9rem;
+        margin-right:0;
+    }
+
+       /*CONTEÚDO FOOTER*/
+
+    footer{
+        width: 275%;
+    }
+
+    .footer-imagem{
+        width: 200px;
+        height: 200px;
+        margin-left:1.5rem;
+    }
+
+    .contatos-footer{
+        margin-left: 5rem;
+    }
+
+    .copyright-footer{
+        font-size:12px
+    }
+    
+}
+   
